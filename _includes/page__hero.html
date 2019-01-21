@@ -35,13 +35,7 @@
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline">
-        {% if paginator and site.paginate_show_page_num %}
-          {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
-        {% else %}
-          {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
-        {% endif %}
-      </h1>
+	  <div style="font-family: 'Source Serif Pro', serif; font-size:6em;letter-spacing:-.05em;float:left;color:#aaa;text-shadow: 2px 2px 4px #fff;">cyber&nbsp;</div><div style="font-family: 'Averia Serif Libre', cursive;font-size:4.3em;color:#fff;float:left;letter-spacing:.3em;padding-top:.20em;">talks</div>
       {% if page.header.show_overlay_excerpt != false and page.excerpt %}
         <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
