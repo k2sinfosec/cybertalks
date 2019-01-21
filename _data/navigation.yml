@@ -8,13 +8,3 @@ main:
     url: https://k2sinfosec.github.io/cybertalks/#Archive
   - title: "Sponsors"
     url: https://k2sinfosec.github.io/cybertalks/#Sponsors
-    
-events:
-  - title: Upcoming Events
-    children:
-      - title: "February Meetup"
-        text: "Location TBD"
-      - title: "March Meetup"
-        text: "Location TBD"
-
-
