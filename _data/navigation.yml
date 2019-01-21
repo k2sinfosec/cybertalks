@@ -2,10 +2,19 @@
 main:
   - title: "Who We Are"
     url: https://k2sinfosec.github.io/cybertalks/#about
-  - title: "Who We Are"
+  - title: "Upcoming Events"
     url: https://k2sinfosec.github.io/cybertalks/#events
+  - title: "Previous Events"
+    url: https://k2sinfosec.github.io/cybertalks/#Archive
   - title: "Sponsors"
     url: https://k2sinfosec.github.io/cybertalks/#Sponsors
-  - title: "Previous Meetups"
-    url: https://k2sinfosec.github.io/cybertalks/#Archive
+    
+events:
+  - title: Upcoming Events
+    children:
+      - title: "February Meetup"
+        text: "Location TBD"
+      - title: "March Meetup"
+        text: "Location TBD"
+
 
