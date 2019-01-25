@@ -4,7 +4,7 @@ main:
     url: https://k2sinfosec.github.io/cybertalks/#about
   - title: "Upcoming Events"
     url: https://k2sinfosec.github.io/cybertalks/#events
-  - title: "Previous Events"
-    url: https://k2sinfosec.github.io/cybertalks/#Archive
+#  - title: "Previous Events"
+#    url: https://k2sinfosec.github.io/cybertalks/#Archive
   - title: "Sponsors"
     url: https://k2sinfosec.github.io/cybertalks/#Sponsors
